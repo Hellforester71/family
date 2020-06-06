@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- язык страницы -->
+<html lang="ru">
+
+<head>
+   <!-- кодировка страницы -->
+   <meta charset="UTF-8">
+   <!-- адаптив -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- для intertet explorer -->
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- заголовок страницы в браузере -->
+   <title>Семья</title>
+   <!-- шрифты -->
+   <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lobster&family=Marck+Script&family=Pacifico&display=swap"
+      rel="stylesheet">
+   <!-- анимация  -->
+   <link rel="stylesheet" href="./css/animate.min.css">
+   <!-- мой css  -->
+   <link rel="stylesheet" href="./css/main.css">
+</head>
+<!-- отображаемое тело страницы -->
+
+<body>
+   <!-- оболочка для демонстрации -->
+   <div class="wrapper">
+      <!-- контент -->
+      <div class="content">
+         <header class="header">
+            <nav class="header__menu">
+               <ul class="header__list">
+                  <li class="header__item"><a href="#">Фото</a></li>
+                  <li class="header__item"><a href="#">Видео</a></li>
+                  <li class="header__item"><a href="#">Авторы</a></li>
+               </ul>
+            </nav>
+            <h1>Семья</h1>
+            <a href="#section__content" rel='mPageScroll2id'><span class="header__arrow"></span></a>
+         </header>
+         <section id="section__content" class="section__content">
+            <div class="section__content-tyumen wow bounceInLeft">
+               <a href="#">
+                  <h2>Тюмень</h2>
+               </a>
+            </div>
+            <div class="section__content-travels wow zoomIn">
+               <a href="#">
+                  <h2>Путешествия</h2>
+               </a>
+            </div>
+            <div class="section__content-house wow zoomIn">
+               <a href="#">
+                  <h2>Аня</h2>
+               </a>
+            </div>
+            <div class="section__content-wedding  wow bounceInRight">
+               <a href="wedding.html">
+                  <h2>Свадьба</h2>
+               </a>
+            </div>
+         </section>
+      </div> <!-- content -->
+   </div><!-- wrapper  -->
+
+
+
+
+
+
+   <!-- библитотека jquery -->
+   <script src="./js/jquery-3.5.1.min.js"></script>
+   <!-- видеофон -->
+   <script src="./js/jquery.vide.min.js"></script>
+   <!-- плавный скролл -->
+   <script src="./js/jquery.malihu.PageScroll2id.min.js"></script>
+   <!-- слайдер -->
+   <script src="./js/slick.min.js"></script>
+   <!-- параллакс -->
+   <script src="./js/parallax.min.js"></script>
+   <!-- пояпление при прокрутке -->
+   <script src="./js/wow.min.js"></script>
+   <script>
+      new WOW(
+         {
+            offset: 100
+         }
+      ).init();
+   </script>
+   <!-- мой css  -->
+   <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+/*!Обнуление*/
+* {
+padding: 0;
+margin: 0;
+border: 0;
+}
+*,
+*:before,
+*:after {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,
+:active {
+outline: none;
+}
+a:focus,
+a:active {
+outline: none;
+}
+nav,
+footer,
+header,
+aside {
+display: block;
+}
+html,
+body {
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+font-family: inherit;
+}
+input::-ms-clear {
+display: none;
+}
+button {
+cursor: pointer;
+}
+button::-moz-focus-inner {
+padding: 0;
+border: 0;
+}
+a,
+a:visited {
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+}
+ul li {
+list-style: none;
+}
+img {
+vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-size: inherit;
+font-weight: inherit;
+}
+/*!---------------------О-Б-Н-У-Л-Е-Н-И-Е---------------------------*/
+
+.wedding__zags{
+   margin: 50px;
+   height: 400px;
+   width: 400px;   
+   box-shadow: 10px 16px 10px #666;
+}
+.wedding__zags:hover {
+   box-shadow: 4px 10px 10px rgb(10, 10, 10);
+   transform: scale(0.95);
+   transition: 0.3s;
+}
+.wedding__zags:active {
+   transform: scale(0.9);
+   transition: 0.3s;
+}
+.wedding-wrapper {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+}
+.wedding__garden {
+   margin: 50px;
+   height: 400px;
+   width: 400px;   
+   box-shadow: 10px 16px 10px #666;
+}
+.wedding__garden:hover {
+   box-shadow: 4px 10px 10px rgb(10, 10, 10);
+   transform: scale(0.95);
+   transition: 0.3s;
+}
+.wedding__garden:active {
+   transform: scale(0.9);
+   transition: 0.3s;
+}
+h2 {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+   position: absolute;
+   top: 0;
+   left: 0;
+   font-size: calc(25px + 35 * (100vw / 2200));
+   color: #fff;
+}
+
+
+
+/*?=======================4096х1980=================================*/
+@media (max-width: 1920px) {
+
+}
+/*===============================================================*/
+@media (max-width: 1600px) {
+
+}
+/*===============================================================*/
+@media (max-width: 1440px) {
+
+}
+/*===============================================================*/
+@media (max-width: 1366px) {
+
+}
+/*===============================================================*/
+@media (max-width: 1280px) {
+
+}
+/*===== 992px - 1200px ========BOOTSTRAP=========================*/
+@media (max-width: 1200px) {
+
+}
+/*=============================BOOTSTRAP-C=======================*/
+@media (max-width: 1140px) {
+
+}
+/*===============================================================*/
+@media (max-width: 1080px) {
+
+}
+/*===============================================================*/
+@media (max-width: 1024px) {
+
+}
+/*======= 768px - 992px =======BOOTSTRAP=========================*/
+@media (max-width: 992px) {
+
+}
+/*=============================BOOTSTRAP-C=========================*/
+@media (max-width: 960px) {
+
+}
+/*===============================================================*/
+@media (max-width: 900px) {
+
+}
+/*===============================================================*/
+@media (max-width: 823px) {
+
+}
+/*===============================================================*/
+@media (max-width: 812px) {
+
+}
+/*===============================================================*/
+@media (max-width: 800px) {
+
+}
+/*======= 576px - 768px========BOOTSTRAP========================*/
+@media (max-width: 768px) {
+
+}
+/*===============================================================*/
+@media (max-width: 736px) {
+
+}
+/*=============================BOOTSTRAP-C=========================*/
+@media (max-width: 720px) {
+
+}
+/*===============================================================*/
+@media (max-width: 667px) {
+
+}
+/*===============================================================*/
+@media (max-width: 640px) {
+
+}
+/*======= 0px - 576px ========BOOTSTRAP========================*/
+@media (max-width: 576px) {
+
+}
+/*===============================================================*/
+@media (max-width: 568px) {
+
+}
+/*=============================BOOTSTRAP-C=======================*/
+@media (max-width: 540px) {
+
+}
+/*===============================================================*/
+@media (max-width: 534px) {
+
+}
+/*===============================================================*/
+@media (max-width: 480px) {
+   .wedding__zags{
+      height: 300px;
+
+   }
+   .wedding__garden{
+      height: 300px;
+   }
+
+}
+/*===============================================================*/
+@media (max-width: 414px) {
+
+}
+/*===============================================================*/
+@media (max-width: 375px) {
+   .wedding__zags{
+      height: 200px;
+
+   }
+   .wedding__garden{
+      height: 200px;
+   }
+
+}
+/*===============================================================*/
+@media (max-width: 360px) {
+
+}
+/*===============================================================*/
+@media (max-width: 320px) {
+
+}
